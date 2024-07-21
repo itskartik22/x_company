@@ -9,7 +9,7 @@ const DiscussSection = () => {
           {/* <p>Let's figure out how to create an effective application, its cost and terms of its development</p>
            */}
         </div>
-        <DiscussForm buttonText="Discuss the project" buttonColor="#FFB900"/>
+        <DiscussForm buttonText="Discuss the project" buttonColor="orange" />
       </div>
     )
 }

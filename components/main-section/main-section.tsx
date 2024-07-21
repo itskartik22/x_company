@@ -25,7 +25,7 @@ const MainSection = () => {
             to Unparalleled Heights.
           </p>
         </div>
-        <DiscussForm buttonText = "Get Consultaion" buttonColor="#80A948" />
+        <DiscussForm buttonText = "Get Consultaion" buttonColor="green" />
       </div>
     </div>
   );

@@ -111,7 +111,7 @@ const DiscussForm = ({buttonText, buttonColor} : {
               />
             </div>
           </div>
-          <Button className={`bg-[${buttonColor}] hover:bg-[#fed053] self-end`} type="submit">{buttonText}</Button>
+          <Button className={`${buttonColor == "green" ? "bg-[#80A948]" : "bg-[#FFBA00]"} hover:bg-[#fed053] self-end`} type="submit">{buttonText}</Button>
         </form>
       </Form>
     </div>
